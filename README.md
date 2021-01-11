@@ -93,6 +93,8 @@ let's find ``` mr3bn``` user password, after searching the files and seen the
 user is in the ```adm```, move to ```/var/log/audit``` and search for the mr3bn
 credentials, and found credentials in hex format decrypt it and switch user ```mr3bn```
 
+## Vertical Privilege Escalation
+
 …and check what sudo privilege ```mr3bn``` has
 
 the user ```mr3bn``` run ```(ALL) /usr/bin/composer``` composer have SUID bit
